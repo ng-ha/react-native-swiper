@@ -5,6 +5,9 @@
 <p align="center">
   The best Swiper component for React Native.
 </p>
+<p align="center">
+  The origin repository is no longer maintained, so i made this with some improvements.
+</p>
 
 <p align="center">
   <a href="http://standardjs.com/"><img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"></a>
@@ -95,32 +98,38 @@
 
 ## Getting Started
 
-- [Installation](#installation)
-- [Basic Usage](#basic-usage)
-- [Properties](#properties)
-  - [Basic](#basic)
-  - [Custom basic style & content](#custom-basic-style--content)
-  - [Pagination](#pagination)
-  - [Autoplay](#autoplay)
-  - [Control buttons](#control-buttons)
-  - [Props of Children](#props-of-children)
-  - [Basic props of `<ScrollView />`](#basic-props-of-scrollview-)
-  - [Supported ScrollResponder](#supported-scrollresponder)
-- [Examples](#examples)
-- [Development](#development)
+- [react-native-swiper](#react-native-swiper)
+  - [Roadmap](#roadmap)
+  - [Changelogs](#changelogs)
+  - [Show Cases](#show-cases)
+    - [examples/components/Basic](#examplescomponentsbasic)
+    - [examples/components/Swiper](#examplescomponentsswiper)
+    - [examples/components/SwiperNumber](#examplescomponentsswipernumber)
+    - [examples/components/Phone](#examplescomponentsphone)
+    - [examples/components/LoadMinimal](#examplescomponentsloadminimal)
+  - [Getting Started](#getting-started)
+    - [Installation](#installation)
+    - [Basic Usage](#basic-usage)
+    - [Properties](#properties)
+      - [Basic](#basic)
+      - [Custom basic style \& content](#custom-basic-style--content)
+      - [Pagination](#pagination)
+      - [Autoplay](#autoplay)
+      - [Control buttons](#control-buttons)
+      - [Props of Children](#props-of-children)
+      - [Basic props of `<ScrollView />`](#basic-props-of-scrollview-)
+      - [Supported ScrollResponder](#supported-scrollresponder)
+    - [Methods](#methods)
+      - [scrollBy(index, animated)](#scrollbyindex-animated)
+    - [Examples](#examples)
+    - [Development](#development)
+  - [Contribution](#contribution)
+  - [Questions](#questions)
 
 ### Installation
 
-> v1.5.14
-
 ```bash
-$ npm i react-native-swiper --save
-```
-
-> v1.6.0-rc
-
-```
-npm i --save react-native-swiper@next
+$ npm i @ng-ha/react-native-swiper
 ```
 
 ### Basic Usage
@@ -143,7 +152,7 @@ $ react-native init myproject
 import React, { Component } from 'react'
 import { AppRegistry, StyleSheet, Text, View } from 'react-native'
 
-import Swiper from 'react-native-swiper'
+import Swiper from '@ng-ha/react-native-swiper'
 
 const styles = StyleSheet.create({
   wrapper: {},
