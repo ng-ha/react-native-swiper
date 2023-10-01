@@ -5,35 +5,14 @@
 <p align="center">
   The best Swiper component for React Native.
 </p>
-<p align="center">
-  The origin repository is no longer maintained, so i made this with some improvements.
-</p>
-
 
 # react-native-swiper
 
+  The original repository is no longer maintained, so i made this with some improvements:
 
-## Show Cases
+- add missing type for **scrollViewStyle** (see this [PR]((https://github.com/leecade/react-native-swiper/pull/1304)))
+- add **containerScrollViewStyle** prop for wrapper View that wraps ScrollView 
 
-> Try these cases by yourself very easy, Just open `examples/ios/swiper.xcodeproj` in Xcode, then press `Cmd + R`; you may edit `examples/index.ios.js` for switch cases.
-
-### [examples/components/Basic](https://github.com/leecade/react-native-swiper/blob/master/examples/components/Basic)
-
-![](http://i.imgur.com/zrsazAG.gif=300x)
-
-### [examples/components/Swiper](https://github.com/leecade/react-native-swiper/blob/master/examples/components/Swiper)
-
-![](http://i.imgur.com/hP3f3oO.gif=300x)
-
-### [examples/components/SwiperNumber](https://github.com/leecade/react-native-swiper/blob/master/examples/components/SwiperNumber)
-
-![](http://i.imgur.com/0rqESVb.gif=300x)
-
-### [examples/components/Phone](https://github.com/leecade/react-native-swiper/blob/master/examples/components/Phone)
-
-![](http://i.imgur.com/c1BhjZm.gif=300x)
-
-### [examples/components/LoadMinimal](https://github.com/leecade/react-native-swiper/blob/master/examples/components/LoadMinimal)
 
 ### Installation
 
