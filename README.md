@@ -10,7 +10,7 @@
 
   The original repository is no longer maintained, so i made this with some improvements:
 
-- add missing type for **scrollViewStyle** (see this [PR]((https://github.com/leecade/react-native-swiper/pull/1304)))
+- add missing type for **scrollViewStyle** (see this [PR](https://github.com/leecade/react-native-swiper/pull/1304))
 - add **containerScrollViewStyle** prop for wrapper View that wraps ScrollView 
 
 
